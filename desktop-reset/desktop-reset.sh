@@ -1,2 +1,2 @@
 #!/bin/bash
-unzip autoinstall-main.zip -d /home/schueler/
+unzip -o autoinstall-main.zip -d /home/schueler/
