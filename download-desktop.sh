@@ -1,4 +1,7 @@
 #!/bin/sh
-Download von github
-entpacken in Downloads
-bash desktop-install.sh
+cd /home/schueler/Downloads
+wget https://github.com/HaraldRau/autoinstall/archive/main.zip
+unzip autoinstall-main.zip
+bash /home/schueler/Downloads/autoinstall-main/desktop-reset/desktop-install.sh
+rm r- autoinstall-main
+rm r- autoinstall-main.zip
